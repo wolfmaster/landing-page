@@ -2,6 +2,24 @@
 
 #header {
   background-color: #1F2937;
+  display: flex;
+  margin: 6px 50px 30px 50px;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.links {
+
 }
 
 #centro1 {
