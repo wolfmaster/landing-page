@@ -4,12 +4,14 @@ body {
     font-family: roboto;
     background-color: black;
 }
+
+/*
 #cuerpo {
     padding: 0px 50px;
     display: flex;
     justify-content: center;
 }
-
+*/
 
 #header {
   background-color: #1F2937;
