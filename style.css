@@ -1,25 +1,85 @@
 /*hoja de estilo landing page */
 
+body {
+    font-family: roboto;
+}
+
 #header {
   background-color: #1F2937;
   display: flex;
   margin: 6px 50px 30px 50px;
+  flex-direction: column;
 }
 
 .top {
-    flex: 1;
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo {
-    flex: 1;
+    
     display: flex;
     justify-content: left;
 }
 
-.links {
+.logoimg {
+    height: 50px;
+    width: auto;
+    padding: 16px;
+}
 
+.links {
+    display: flex;
+    justify-content: left;
+}
+
+ul {
+ display: flex;
+ list-style-type: none;
+ gap: 16px;
+ font-size: 18px;
+ padding: 8px 16px;
+}
+
+a {
+ text-decoration: none;
+ color: #e5e7eb;
+}
+
+
+.awesome {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 40px;
+}
+
+.awesomeimg {
+    height: 300px;
+    width: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.titular {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.texto {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 #centro1 {
