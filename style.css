@@ -2,25 +2,36 @@
 
 body {
     font-family: roboto;
+    background-color: black;
 }
+#cuerpo {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
 
 #header {
   background-color: #1F2937;
   display: flex;
-  margin: 6px 50px 30px 50px;
+  margin: 0px 50px;
   flex-direction: column;
+  
 }
 
 .top {
     
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    
 }
 
 .logo {
     
     display: flex;
     justify-content: left;
+    padding-left: 350px;
 }
 
 .logoimg {
@@ -32,6 +43,7 @@ body {
 .links {
     display: flex;
     justify-content: left;
+    padding-right: 350px;
 }
 
 ul {
@@ -59,15 +71,15 @@ a {
     height: 300px;
     width: auto;
     border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
+    background-color: whitesmoke;
 }
 
 .izquierda {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     width: 400px;
 }
 
@@ -82,8 +94,24 @@ a {
     color: #e5e7eb;
 }
 
-#centro1 {
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: 8px;
+    padding: 10px 35px;
+    font-size: 18px;
+    
+}
 
+#centro1 {
+   background-color: white;
+   margin: 0px 50px;
 }
 
 #centro2 {
